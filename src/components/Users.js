@@ -9,7 +9,6 @@ const {Users} = () => {
         {id: 5, name:'Меггі', image:'https://upload.wikimedia.org/wikipedia/ru/9/9d/Maggie_Simpson.png'},
 
     ]
-
     return (
         <div>
             {users.map(user=> <User key={user.id} user={user}/>)}
