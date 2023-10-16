@@ -2,11 +2,12 @@ import {User} from "./User";
 
 const {Users} = () => {
     const users =[
-        {id: 1, name:'Гомер', image:'https://static.wikia.nocookie.net/p__/images/3/3c/HomerSimpson.png'},
-        {id: 2, name:'Барт', image:'https://upload.wikimedia.org/wikipedia/uk/a/aa/Bart_simpson.png'},
-        {id: 3, name:'Мардж', image:'https://upload.wikimedia.org/wikipedia/ru/0/0b/Marge_Simpson.png'},
-        {id: 4, name:'Ліза', image:'https://static.wikia.nocookie.net/simpsons/images/5/57/Lisa_Simpson2.png'},
-        {id: 5, name:'Меггі', image:'https://upload.wikimedia.org/wikipedia/ru/9/9d/Maggie_Simpson.png'},
+        {id: 1, name:'Rick Sanchez', status: 'Alive', species: 'Human', gender: 'Male', image:'https://rickandmortyapi.com/api/character/avatar/1.jpeg'},
+        {id: 2, name:'Morty Smith', status: 'Alive', species: 'Human', gender: 'Male', image:'https://rickandmortyapi.com/api/character/avatar/2.jpeg'},
+        {id: 3, name:'Summer Smith', status: 'Alive', species: 'Human', gender: 'Female', image:'https://rickandmortyapi.com/api/character/avatar/3.jpeg'},
+        {id: 4, name:'Beth Smith', status: 'Alive', species: 'Human', gender: 'Female', image:'https://rickandmortyapi.com/api/character/avatar/4.jpeg'},
+        {id: 5, name:'Jerry Smith', status: 'Alive', species: 'Human', gender: 'Male', image:'https://rickandmortyapi.com/api/character/avatar/5.jpeg'},
+        {id: 6, name:'Abadango Cluster Princess', status: 'Alive', species: 'Alien', gender: 'Female', image:'https://rickandmortyapi.com/api/character/avatar/6.jpeg'},
 
     ]
     return (
