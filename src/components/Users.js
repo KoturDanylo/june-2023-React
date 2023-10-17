@@ -1,6 +1,7 @@
 import {User} from "./User";
 
-const {Users} = () => {
+const Users = () => {
+
     const users =[
         {id: 1, name:'Rick Sanchez', status: 'Alive', species: 'Human', gender: 'Male', image:'https://rickandmortyapi.com/api/character/avatar/1.jpeg'},
         {id: 2, name:'Morty Smith', status: 'Alive', species: 'Human', gender: 'Male', image:'https://rickandmortyapi.com/api/character/avatar/2.jpeg'},
@@ -12,8 +13,7 @@ const {Users} = () => {
     ]
     return (
         <div>
-            {users.map(user=> <User key={user.id} user={user}/>)}
-
+            {users.map(user=><User key={user.id} user={user}/>)}
         </div>
     );
 };
