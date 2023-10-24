@@ -1,9 +1,11 @@
-import {CarsContainer} from "./components/CarsContainer/CarsContainer";
+import {UserContainer} from "./components/UserContainer/UserContainer";
+import {CommentsContainer} from "./components/CommentsContainer/CommentsContainer";
 
 const App = () => {
     return (
-        <div>
-            <CarsContainer/>
+        <div style={{display:"flex"}}>
+            <UserContainer/>
+            <CommentsContainer/>
         </div>
     );
 };
