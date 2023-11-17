@@ -4,38 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de1fced1-2ee7-493c-841e-77b0c252ccae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CharactersContainer/Character.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CharactersContainer/Characters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CharactersContainer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EpisodesContainer/Episode/Episode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EpisodesContainer/Episode/Episode.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EpisodesContainer/Episodes/Episodes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EpisodesContainer/Episodes/Episodes.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EpisodesContainer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/urls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/ContextProvider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useNamer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/MainLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/CharactersPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/EpisodesPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/axiosService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/characterService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/episodeService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/index.js" afterDir="false" />
+    <list default="true" id="de1fced1-2ee7-493c-841e-77b0c252ccae" name="Changes" comment="njnkm">
+      <change afterPath="$PROJECT_DIR$/src/redux/slices/charactersSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/slices/episodesSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CharactersContainer/Characters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CharactersContainer/Characters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EpisodesContainer/Episode/Episode.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EpisodesContainer/Episode/Episode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EpisodesContainer/Episodes/Episodes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EpisodesContainer/Episodes/Episodes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EpisodesContainer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EpisodesContainer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/ContextProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EpisodesContainer/EpisodePagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useName.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MainLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CharactersPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CharactersPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/EpisodesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/EpisodesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/store.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +44,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2WrDKB7c4uSbYeqVzBQ8Opqyo0x" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -64,11 +61,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "HW6",
+    "git-widget-placeholder": "HW8",
     "last_opened_file_path": "/Users/danylokotur/IdeaProjects/june2023react/src/components/CharactersContainer",
     "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "copyright",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,6 +82,8 @@
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/EpisodesContainer" />
+      <recent name="$PROJECT_DIR$/src/redux" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/EpisodesContainer/Episode" />
     </key>
@@ -93,10 +96,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697481738884</updated>
+      <workItem from="1700229788176" duration="9375000" />
     </task>
+    <task id="LOCAL-00001" summary="njn">
+      <option name="closed" value="true" />
+      <created>1700229765342</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700229765342</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="njn" />
+    <MESSAGE value="njnkm" />
+    <option name="LAST_COMMIT_MESSAGE" value="njnkm" />
   </component>
 </project>
