@@ -1,6 +1,6 @@
 import css from'./Episode.module.css'
 import {useNavigate} from "react-router-dom";
-import {useChapter, useName} from "../../../hooks/useName";
+import {useName} from "../../../hooks/useName";
 const Episode = ({episode}) => {
 
     const {id, name, episode: chapter, characters} = episode;
