@@ -20,7 +20,6 @@ const Episode = ({episode}) => {
             <div>id: {id}</div>
             <div>name: {name}</div>
             <div>chapter: {chapter}</div>
-            <button>Characters</button>
         </div>
     );
 }

@@ -1,6 +1,8 @@
-import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
+import {createAsyncThunk, createSlice, isFulfilled, isRejected} from "@reduxjs/toolkit";
 import {characterService} from "../../services";
-import {isFulfilled, isRejected} from "@reduxjs/toolkit/src";
+
+
+
 
 
 const initialState={

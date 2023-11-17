@@ -9,14 +9,14 @@ const EpisodePagination = () => {
 
    const prev=()=>{
        setQuery(prev1 => {
-           prev1.set('page', (+prev.get('page')-1).toString())
+           prev1.set('page', (+prev1.get('page')-1).toString())
            return prev1
        })
    }
 
     const next=()=>{
         setQuery(prev1 => {
-            prev1.set('page', (+prev.get('page')+1).toString())
+            prev1.set('page', (+prev1.get('page')+1).toString())
             return prev1
         })    }
     return (
